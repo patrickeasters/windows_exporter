@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `BuildNumber` | Provides access to the node's BuildNumber property. | gauge | `name`
@@ -30,6 +31,7 @@ Name | Description | Type | Labels
 `NodeWeight` | The vote weight of the node. | gauge | `name`
 `State` | Returns the current state of a node. -1: Unknown; 0: Up; 1: Down; 2: Paused; 3: Joining | gauge | `name`
 `StatusInformation` | The isolation or quarantine status of the node. | gauge | `name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

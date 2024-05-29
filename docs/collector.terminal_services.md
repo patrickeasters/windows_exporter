@@ -15,6 +15,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_terminal_services_local_session_count` | Number of local Terminal Services sessions. | gauge | `session`
@@ -34,9 +35,9 @@ Name | Description | Type | Labels
 `windows_terminal_services_virtual_bytes_peak` | Maximum number of bytes of virtual address space the process has used at any one time. Use of virtual address space does not necessarily imply corresponding use of either disk or main memory pages. Virtual space is finite and, by using too much, the process might limit its ability to load libraries. | gauge | `session_name`
 `windows_terminal_services_working_set_bytes` | Current number of bytes in the working set of this process. The working set is the set of memory pages touched recently by the threads in the process. If free memory in the computer is above a threshold, pages are left in the working set of a process even if they are not in use. When free memory falls below a threshold, pages are trimmed from working sets. If they are needed, they are then soft-faulted back into the working set before they leave main memory. | gauge | `session_name`
 `windows_terminal_services_working_set_bytes_peak` | Maximum number of bytes in the working set of this process at any point in time. The working set is the set of memory pages touched recently by the threads in the process. If free memory in the computer is above a threshold, pages are left in the working set of a process even if they are not in use. When free memory falls below a threshold, pages are trimmed from working sets. If they are needed, they are then soft-faulted back into the working set before they leave main memory. | gauge | `session_name`
+<!-- END auto-generated metrics table -->
 
 `* windows_terminal_services_connection_broker_performance_total` only collected if server has `Remote Desktop Connection Broker` role.
-
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

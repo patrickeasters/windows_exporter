@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `Characteristics` | Provides the characteristics of the network. The cluster defines characteristics only for resources. For a description of these characteristics, see [CLUSCTL_RESOURCE_GET_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).  | gauge | `name`
@@ -21,6 +22,7 @@ Name | Description | Type | Labels
 `Metric` | The metric of a cluster network (networks with lower values are used first). If this value is set, then the AutoMetric property is set to false. | gauge | `name`
 `Role` | Provides access to the network's Role property. The Role property describes the role of the network in the cluster. 0: None; 1: Cluster; 2: Client; 3: Both  | gauge | `name`
 `State` | Provides the current state of the network. 1-1: Unknown; 0: Unavailable; 1: Down; 2: Partitioned; 3: Up | gauge | `name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

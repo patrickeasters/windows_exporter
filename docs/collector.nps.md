@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_nps_access_accepts` |  | counter | None
@@ -41,6 +42,7 @@ Name | Description | Type | Labels
 `windows_nps_accounting_server_reset_time` |  | counter | None
 `windows_nps_accounting_server_up_time` |  | counter | None
 `windows_nps_accounting_unknown_type` |  | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Show current number of processes

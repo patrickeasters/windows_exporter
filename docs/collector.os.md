@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_os_info` | Contains full product name & version in labels. Note that the `major_version` for Windows 11 is "10"; a build number greater than 22000 represents Windows 11. | gauge | `product`, `version`, `major_version`, `minor_version`, `build_number`
@@ -29,6 +30,7 @@ Name | Description | Type | Labels
 `windows_os_virtual_memory_bytes` | Bytes of virtual memory | gauge | None
 `windows_os_visible_memory_bytes` | Total bytes of physical memory available to the operating system. This value does not necessarily indicate the true amount of physical memory, but what is reported to the operating system as available to it | gauge | None
 `windows_os_virtual_memory_free_bytes` | Bytes of virtual memory currently unused and available | gauge | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Show current number of processes

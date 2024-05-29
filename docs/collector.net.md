@@ -21,6 +21,7 @@ If given, an interface name needs to *not* match the exclude regexp in order for
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_net_bytes_received_total` | Total bytes received by interface | counter | `nic`
@@ -36,6 +37,7 @@ Name | Description | Type | Labels
 `windows_net_packets_total` | Total packets received and transmitted by interface | counter | `nic`
 `windows_net_packets_sent_total` | Total packets transmitted by interface | counter | `nic`
 `windows_net_current_bandwidth_bytes` | Estimate of the interface's current bandwidth in bytes per second | gauge | `nic`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Query the rate of transmitted network traffic

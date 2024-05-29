@@ -15,6 +15,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `packets_received_total` | Total number of packets received by the DHCP server | counter | None
@@ -42,6 +43,7 @@ Name | Description | Type | Labels
 `failover_transitions_partnerdown_state_total` | Total number of transitions into PARTNER DOWN state | counter | None
 `failover_transitions_recover_total` | Total number of transitions into RECOVER state | counter | None
 `failover_bndupd_dropped_total` | Total number of DHCP faileover Binding Updates dropped | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

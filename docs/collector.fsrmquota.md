@@ -16,6 +16,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_fsrmquota_count` | Number of Quotas | counter |None
@@ -27,7 +28,7 @@ Name | Description | Type | Labels
 `windows_fsrmquota_softlimit` | If 1, the quota is a soft limit. If 0, the quota is a hard limit. The default value is 0. Optional (SoftLimit) | counter |`path`, `template`
 `windows_fsrmquota_template` | A valid quota template name. Up to 1KB in size. Optional (Template) | counter |`path`, `template`
 `windows_fsrmquota_usage_bytes` | The current amount of disk space usage charged to this quota. (Usage) | counter |`path`, `template`
-
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Show rate of Quotas usage:

@@ -15,6 +15,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_tcp_connection_failures_total` | Number of times TCP connections have made a direct transition to the CLOSED state from the SYN-SENT state or the SYN-RCVD state, plus the number of times TCP connections have made a direct transition from the SYN-RCVD state to the LISTEN state | counter | af
@@ -26,6 +27,7 @@ Name | Description | Type | Labels
 `windows_tcp_segments_received_total` | Total segments received, including those received in error. This count includes segments received on currently established connections | counter | af
 `windows_tcp_segments_retransmitted_total` | Total segments retransmitted. That is, segments transmitted that contain one or more previously transmitted bytes | counter | af
 `windows_tcp_segments_sent_total` | Total segments sent, including those on current connections, but excluding those containing *only* retransmitted bytes | counter | af
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

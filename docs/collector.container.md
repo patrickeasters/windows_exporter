@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_container_available` | Available | counter | `container_id`
@@ -34,6 +35,7 @@ Name | Description | Type | Labels
 `windows_container_storage_read_size_bytes_total` | Read Size Bytes | counter | `container_id`
 `windows_container_storage_write_count_normalized_total` | Write Count Normalized | counter | `container_id`
 `windows_container_storage_write_size_bytes_total` | Write Size Bytes | counter | `container_id`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _windows_container_network_receive_bytes_total{container_id="docker://1bd30e8b8ac28cbd76a9b697b4d7bb9d760267b0733d1bc55c60024e98d1e43e",interface="822179E7-002C-4280-ABBA-28BCFE401826"} 9.3305343e+07_

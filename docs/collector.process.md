@@ -61,6 +61,7 @@ w3wp_Test
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_process_start_time` | Time of process start | gauge | `process`, `process_id`, `creating_process_id`
@@ -78,6 +79,7 @@ Name | Description | Type | Labels
 `windows_process_working_set_private_bytes` | Size of the working set, in bytes, that is use for this process only and not shared nor shareable by other processes. | gauge | `process`, `process_id`, `creating_process_id`
 `windows_process_working_set_peak_bytes` | Maximum size, in bytes, of the Working Set of this process at any point in time. The Working Set is the set of memory pages touched recently by the threads in the process. If free memory in the computer is above a threshold, pages are left in the Working Set of a process even if they are not in use. When free memory falls below a threshold, pages are trimmed from Working Sets. If they are needed they will then be soft-faulted back into the Working Set before they leave main memory. | gauge | `process`, `process_id`, `creating_process_id`
 `windows_process_working_set_bytes` | Maximum number of bytes in the working set of this process at any point in time. The working set is the set of memory pages touched recently by the threads in the process. If free memory in the computer is above a threshold, pages are left in the working set of a process even if they are not in use. When free memory falls below a threshold, pages are trimmed from working sets. If they are needed, they are then soft-faulted back into the working set before they leave main memory. | gauge | `process`, `process_id`, `creating_process_id`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

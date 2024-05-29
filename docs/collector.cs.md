@@ -14,11 +14,13 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_cs_logical_processors` | Number of installed logical processors | gauge | None
 `windows_cs_physical_memory_bytes` | Total installed physical memory | gauge | None
 `windows_cs_hostname` | Labelled system hostname information | gauge | `hostname`, `domain`, `fqdn`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

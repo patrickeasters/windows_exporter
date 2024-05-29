@@ -16,6 +16,7 @@ None
 
 ## Metrics (Network)
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_remote_fx_net_base_udp_rtt_seconds` | Base UDP round-trip time (RTT) detected in seconds. | gauge | `session_name`
@@ -31,13 +32,6 @@ Name | Description | Type | Labels
 `windows_remote_fx_net_loss_rate` | Network packet loss rate detected over the RemoteFX session, expressed as a percentage. | counter | `session_name`
 `windows_remote_fx_net_fec_rate` | Forward Error Correction (FEC) rate applied to packets sent over the RemoteFX session, expressed as a percentage. | counter | `session_name`
 `windows_remote_fx_net_retransmission_rate` Rate of packets retransmitted over the RemoteFX session, expressed as a percentage. | counter | `session_name`
-
-
-
-## Metrics (Graphics)
-
-Name | Description | Type | Labels
------|-------------|------|-------
 `windows_remote_fx_gfx_average_encoding_time_seconds` | Average frame encoding time. | gauge | `session_name`
 `windows_remote_fx_gfx_frame_quality` | Quality of the output frame expressed as a percentage of the quality of the source frame. | gauge | `session_name`
 `windows_remote_fx_gfx_frames_skipped_insufficient_resource_total` | Number of frames skipped per second due to insufficient resources. resources are client, server or network. | counter | `session_name`, `resource`
@@ -45,6 +39,7 @@ Name | Description | Type | Labels
 `windows_remote_fx_gfx_input_frames_total` | Number of sources frames provided as input to RemoteFX graphics per second. | counter | `session_name`
 `windows_remote_fx_gfx_output_frames_total` | Number of frames sent to the client per second. | counter | `session_name`
 `windows_remote_fx_gfx_source_frames_total` | Number of frames composed by the source (DWM) per second. | counter | `session_name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

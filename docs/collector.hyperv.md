@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_hyperv_health_critical` | _Not yet documented_ | counter | None
@@ -106,6 +107,7 @@ Name | Description | Type | Labels
 `windows_hyperv_vm_interface_packets_outgoing_dropped` | _Not yet documented_ | counter | `vm_interface`
 `windows_hyperv_vm_interface_packets_received` | _Not yet documented_ | counter | `vm_interface`
 `windows_hyperv_vm_interface_packets_sent` | _Not yet documented_ | counter | `vm_interface`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

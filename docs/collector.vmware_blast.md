@@ -16,6 +16,7 @@ None
 
 Some of these metrics may not be collected, depending on the installation options chosen when installing the Horizon agent
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_vmware_blast_audio_received_bytes_total` | _Not yet documented_ | counter | None
@@ -87,6 +88,7 @@ Name | Description | Type | Labels
 `windows_vmware_blast_windows_media_mmr_received_packets_total` | _Not yet documented_ | counter | None
 `windows_vmware_blast_windows_media_mmr_transmitted_bytes_total` | _Not yet documented_ | counter | None
 `windows_vmware_blast_windows_media_mmr_transmitted_packets_total` | _Not yet documented_ | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

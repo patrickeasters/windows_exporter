@@ -15,6 +15,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_cache_async_copy_reads_total`          | Number of times that a filesystem, such as NTFS, maps a page of a file into the file system cache to read a page. | counter | None
@@ -46,6 +47,7 @@ Name | Description | Type | Labels
 `windows_cache_sync_fast_reads_total`           | Number of reads from the file system cache that bypass the installed file system and retrieve the data directly from the cache. If the data is not in the cache, the request (application program call) will wait until the data has been retrieved from disk. | counter | None
 `windows_cache_sync_mdl_reads_total`            | Number of reads from the file system cache that use a Memory Descriptor List (MDL) to access the pages. If the accessed page(s) are not in main memory, the caller will wait for the pages to fault in from the disk. | counter | None
 `windows_cache_sync_pin_reads_total`            | Number of reads into the file system cache preparatory to writing the data back to disk. The file system will not regain control until the page is pinned in the file system cache, in particular if the disk must be accessed to retrieve the page. | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Percentage of copy reads that hit the cache

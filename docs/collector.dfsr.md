@@ -19,6 +19,7 @@ All sources are enabled by default
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_dfsr_collector_duration_seconds` | The time taken for each sub-collector to return | gauge | collector
@@ -64,6 +65,7 @@ Name | Description | Type | Labels
 `windows_dfsr_volume_usn_journal_unread_percentage` | Percentage of DFSR Volume USN journal records that are unread. | gauge | name
 `windows_dfsr_volume_usn_journal_accepted_records_total` | Total number of USN journal records accepted. | counter | name
 `windows_dfsr_volume_usn_journal_read_records_total` | Total number of DFSR Volume USN journal records read. | counter | name
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

@@ -33,10 +33,12 @@ Required: No
 Metrics will primarily come from the files on disk. The below listed metrics
 are collected to give information about the reading of the metrics themselves.
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_textfile_scrape_error` | 1 if there was an error opening or reading a file, 0 otherwise | gauge | None
 `windows_textfile_mtime_seconds` | Unix epoch-formatted mtime (modified time) of textfiles successfully read | gauge | file
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

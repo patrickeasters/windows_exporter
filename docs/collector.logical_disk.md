@@ -21,6 +21,7 @@ If given, a disk needs to *not* match the exclude regexp in order for the corres
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_logical_disk_requests_queued` | Number of requests outstanding on the disk at the time the performance data is collected | gauge | `volume`
@@ -36,6 +37,7 @@ Name | Description | Type | Labels
 `windows_logical_disk_size_bytes` | Total size of the disk in bytes (not real time, updates every 10-15 min) | gauge | `volume`
 `windows_logical_disk_idle_seconds_total` | Seconds the disk was idle (not servicing read/write requests) | counter | `volume`
 `windows_logical_disk_split_ios_total` | Number of I/Os to the disk split into multiple I/Os | counter | `volume`
+<!-- END auto-generated metrics table -->
 
 ### Warning about size metrics
 The `free_bytes` and `size_bytes` metrics are not updated in real time and might have a delay of 10-15min.

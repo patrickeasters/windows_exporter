@@ -20,6 +20,7 @@ If true, print available mssql WMI classes and exit.  Only displays if the mssql
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_mssql_collector_duration_seconds` | The time taken for each sub-collector to return | gauge | `collector`, `mssql_instance`
@@ -256,6 +257,7 @@ Name | Description | Type | Labels
 `windows_mssql_waitstats_wait_for_the_worker_waits` | Statistics relevant to processes waiting for worker to become available | gauge | `mssql_instance`, `item`
 `windows_mssql_waitstats_workspace_synchronization_waits` | Statistics relevant to processes synchronizing access to workspace | gauge | `mssql_instance`, `item`
 `windows_mssql_waitstats_transaction_ownership_waits` | Statistics relevant to processes synchronizing access to transaction | gauge | `mssql_instance`, `item`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 

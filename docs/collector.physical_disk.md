@@ -21,6 +21,7 @@ If given, a disk needs to *not* match the exclude regexp in order for the corres
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `requests_queued` | Number of requests outstanding on the disk at the time the performance data is collected | gauge | `disk`
@@ -34,6 +35,7 @@ Name | Description | Type | Labels
 `size_bytes` | Total size of the disk in bytes (not real time, updates every 10-15 min) | gauge | `disk`
 `idle_seconds_total` | Seconds the disk was idle (not servicing read/write requests) | counter | `disk`
 `split_ios_total` | Number of I/Os to the disk split into multiple I/Os | counter | `disk`
+<!-- END auto-generated metrics table -->
 
 ### Warning about size metrics
 The `free_bytes` and `size_bytes` metrics are not updated in real time and might have a delay of 10-15min.

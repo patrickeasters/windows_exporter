@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_ad_address_book_operations_total` | _Not yet documented_ | counter | `operation`
@@ -78,6 +79,7 @@ Name | Description | Type | Labels
 `windows_ad_sam_password_changes_total` | _Not yet documented_ | counter | None
 `windows_ad_tombstoned_objects_collected_total` | _Not yet documented_ | counter | None
 `windows_ad_tombstoned_objects_visited_total` | _Not yet documented_ | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

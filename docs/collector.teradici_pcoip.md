@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_teradici_pcoip_audio_bytes_received_total` | _Not yet documented_ | counter | None
@@ -53,6 +54,7 @@ Name | Description | Type | Labels
 `windows_teradici_pcoip_usb_bytes_sent_total` | _Not yet documented_ | counter | None
 `windows_teradici_pcoip_usb_rx_bw_kbit_persec` | _Not yet documented_ | gauge | None
 `windows_teradici_pcoip_usb_tx_bw_kbit_persec` | _Not yet documented_ | gauge | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

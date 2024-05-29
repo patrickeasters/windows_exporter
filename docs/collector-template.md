@@ -18,9 +18,11 @@ Example: `--collector....`
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_...` | ... | counter/gauge/histogram/summary | ...
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 

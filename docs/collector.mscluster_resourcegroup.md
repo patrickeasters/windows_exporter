@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `AutoFailbackType` | Provides access to the group's AutoFailbackType property. | gauge | `name`
@@ -31,6 +32,7 @@ Name | Description | Type | Labels
 `ResiliencyPeriod` | The resiliency period for this group, in seconds. | gauge | `name`
 `State` | The current state of the resource group. -1: Unknown; 0: Online; 1: Offline; 2: Failed; 3: Partial Online; 4: Pending | gauge | `name`
 `UpdateDomain` | | gauge | `name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Query the state of all cluster group owned by node1

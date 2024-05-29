@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `AddEvictDelay` | Provides access to the cluster's AddEvictDelay property, which is the number a seconds that a new node is delayed after an eviction of another node. | gauge | `name`
@@ -93,6 +94,7 @@ Name | Description | Type | Labels
 `WitnessDatabaseWriteTimeout` | Controls the maximum time in seconds that a cluster database write to a witness can take before the write is abandoned. | gauge | `name`
 `WitnessDynamicWeight` | The weight of the configured witness. | gauge | `name`
 `WitnessRestartInterval` | Controls the witness restart interval. | gauge | `name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

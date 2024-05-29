@@ -28,6 +28,7 @@ If given, an application needs to *not* match the exclude regexp in order for th
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_iis_current_anonymous_users` | The number of users who currently have an anonymous request pending with the web service | gauge | `site`
@@ -130,6 +131,7 @@ Name | Description | Type | Labels
 `windows_iis_server_output_cache_hits_total` | Total number of successful lookups in output cache (since service startup) | counter | None
 `windows_iis_server_output_cache_items_flushed_total` | Total number of items flushed from output cache (since service startup) | counter | None
 `windows_iis_server_output_cache_flushes_total` | Total number of flushes of output cache (since service startup) | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

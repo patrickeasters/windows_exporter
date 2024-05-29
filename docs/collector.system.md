@@ -15,6 +15,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_system_context_switches_total` | Total number of [context switches](https://en.wikipedia.org/wiki/Context_switch) | counter | None
@@ -23,6 +24,7 @@ Name | Description | Type | Labels
 `windows_system_system_calls_total` | Total combined calls to Windows NT system service routines by all processes running on the computer | counter | None
 `windows_system_system_up_time` | Time of last boot of system | gauge | None
 `windows_system_threads` | Number of Windows system [threads](https://en.wikipedia.org/wiki/Thread_(computing)) | gauge | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Show current number of system threads

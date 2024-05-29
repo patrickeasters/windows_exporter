@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_netframework_clrremoting_channels_total` | Displays the total number of remoting channels registered across all application domains since application started. | counter | `process`
@@ -22,6 +23,7 @@ Name | Description | Type | Labels
 `windows_netframework_clrremoting_context_proxies_total` | Displays the total number of remoting proxy objects in this process since it started. | counter | `process`
 `windows_netframework_clrremoting_contexts` | Displays the current number of remoting contexts in the application. | gauge | `process`
 `windows_netframework_clrremoting_remote_calls_total` | Displays the total number of remote procedure calls invoked since the application started. | counter | `process`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

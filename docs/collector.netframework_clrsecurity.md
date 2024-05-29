@@ -14,12 +14,14 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_netframework_clrsecurity_link_time_checks_total` | Displays the total number of link-time code access security checks since the application started. | counter | `process`
 `windows_netframework_clrsecurity_rt_checks_time_percent` | Displays the percentage of time spent performing runtime code access security checks in the last sample. | gauge | `process`
 `windows_netframework_clrsecurity_stack_walk_depth` | Displays the depth of the stack during that last runtime code access security check. | gauge | `process`
 `windows_netframework_clrsecurity_runtime_checks_total` | Displays the total number of runtime code access security checks performed since the application started. | counter | `process`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

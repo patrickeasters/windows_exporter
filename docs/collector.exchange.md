@@ -19,6 +19,8 @@ Lists the Perflib Objects that are queried for data along with the perlfib objec
 Comma-separated list of collectors to use, for example: `--collectors.exchange.enabled=AvailabilityService,OutlookWebAccess`. Matching is case-sensitive. Depending on the exchange installation not all performance counters are available. Use `--collectors.exchange.list` to obtain a list of supported collectors.
 
 ## Metrics
+
+<!-- BEGIN auto-generated metrics table -->
 Name          | Description
 --------------|---------------
 `windows_exchange_rpc_avg_latency_sec` | The latency (sec), averaged for the past 1024 packets
@@ -58,6 +60,7 @@ Name          | Description
 `windows_exchange_http_proxy_mailbox_proxy_failure_rate` | % of failures between this CAS and MBX servers over the last 200 sample
 `windows_exchange_activesync_ping_cmds_pending` | Number of ping commands currently pending in the queue
 `windows_exchange_activesync_sync_cmds_total` | Number of sync commands processed per second. Clients use this command to synchronize items within a folder
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

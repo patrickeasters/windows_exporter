@@ -24,11 +24,13 @@ E.G. `--collector.scheduled_task.exclude="/Microsoft/.+"`
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_scheduled_task_last_result` | The result that was returned the last time the registered task was run | gauge | task
 `windows_scheduled_task_missed_runs` | The number of times the registered task missed a scheduled run | gauge | task
 `windows_scheduled_task_state` | The current state of a scheduled task | gauge | task, state
+<!-- END auto-generated metrics table -->
 
 For the values of the `state` label, see below.
 
@@ -40,7 +42,6 @@ A task can be in the following states:
 - `ready`
 - `running`
 - `unknown`
-
 
 ### Example metric
 

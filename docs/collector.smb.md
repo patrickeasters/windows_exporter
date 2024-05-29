@@ -19,10 +19,13 @@ Lists the Perflib Objects that are queried for data along with the perlfib objec
 Comma-separated list of collectors to use, for example: `--collectors.smb.enabled=ServerShares`. Matching is case-sensitive. Depending on the smb installation not all performance counters are available. Use `--collectors.smb.list` to obtain a list of supported collectors.
 
 ## Metrics
+
+<!-- BEGIN auto-generated metrics table -->
 Name          | Description
 --------------|---------------
 `windows_smb_server_shares_current_open_file_count` | Current total count open files on the SMB Server
 `windows_smb_server_shares_tree_connect_count` | Count of user connections to the SMB Server
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_netframework_clrlocksandthreads_current_queue_length` | Displays the total number of threads that are currently waiting to acquire a managed lock in the application. | gauge | `process`
@@ -23,6 +24,7 @@ Name | Description | Type | Labels
 `windows_netframework_clrlocksandthreads_recognized_threads_total` | Displays the total number of threads that have been recognized by the runtime since the application started. These threads are associated with a corresponding managed thread object. The runtime does not create these threads, but they have run inside the runtime at least once. | counter | `process`
 `windows_netframework_clrlocksandthreads_queue_length_total` | Displays the total number of threads that waited to acquire a managed lock since the application started. | counter | `process`
 `windows_netframework_clrlocksandthreads_contentions_total` | Displays the total number of times that threads in the runtime have attempted to acquire a managed lock unsuccessfully. | counter | `process`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

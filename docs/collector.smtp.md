@@ -22,6 +22,7 @@ If given, a virtual SMTP server needs to *not* match the exclude regexp in order
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_smtp_badmailed_messages_bad_pickup_file_total` | Total number of malformed pickup messages sent to badmail | counter | `server`
@@ -66,6 +67,7 @@ Name | Description | Type | Labels
 `windows_smtp_remote_queue_length` | Number of messages in the remote queue | gauge | `server`
 `windows_smtp_remote_retry_queue_length` | Number of messages in the retry queue for remote delivery | gauge | `server`
 `windows_smtp_routing_table_lookups_total` | Total number of routing table lookups | counter | `server`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

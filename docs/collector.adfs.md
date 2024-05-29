@@ -16,6 +16,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_adfs_ad_login_connection_failures_total` | Total number of connection failures between the ADFS server and the Active Directory domain controller(s) | counter | None
@@ -61,6 +62,7 @@ Name | Description | Type | Labels
 `windows_adfs_db_config_failure_total` | Total number of failures connecting to the configuration database | counter | None
 `windows_adfs_db_config_query_time_seconds_total` | Accumulator of time taken for a configuration database query | counter | None
 `windows_adfs_federation_metadata_requests_total` | Total number of Federation Metadata requests | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Show rate of device authentications in AD FS:

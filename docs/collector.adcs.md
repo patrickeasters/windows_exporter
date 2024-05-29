@@ -16,6 +16,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 |requests_total|Total certificate requests processed|counter|`cert_template`|
@@ -31,6 +32,7 @@ Name | Description | Type | Labels
 |challenge_response_processing_time_seconds|Last time elapsed for challenge response|gauge|`cert_template`|
 |signed_certificate_timestamp_lists_total|Total Signed Certificate Timestamp Lists processed|counter|`cert_template`|
 |signed_certificate_timestamp_list_processing_time_seconds|Last time elapsed for Signed Certificate Timestamp List|gauge|`cert_template`|
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 ```

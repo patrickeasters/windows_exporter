@@ -15,6 +15,8 @@ Lists the Perflib Objects that are queried for data along with the perlfib objec
 Comma-separated list of collectors to use, for example: `--collectors.smbclient.enabled=ServerShares`. Matching is case-sensitive. Depending on the smb protocol version not all performance counters may be available. Use `--collectors.smbclient.list` to obtain a list of supported collectors.
 
 ## Metrics
+
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_smbclient_data_queue_seconds_total` | Seconds requests waited on queue on this share | counter | `server`, `share`|
@@ -38,6 +40,8 @@ Name | Description | Type | Labels
 `windows_smbclient_write_requests_total` | The write requests on this share | counter | `server`, `share`|
 `windows_smbclient_read_seconds_total` | Seconds waiting for read requests on this share | counter | `server`, `share`|
 `windows_smbclient_write_seconds_total` | Seconds waiting for write requests on this share | counter | `server`, `share`|
+<!-- END auto-generated metrics table -->
+
 ## Useful queries
 ```
 # Average request queue length (includes read and write).

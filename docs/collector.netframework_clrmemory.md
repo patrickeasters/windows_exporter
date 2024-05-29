@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_netframework_clrmemory_allocated_bytes_total` | Displays the total number of bytes allocated on the garbage collection heap. | counter | `process`
@@ -28,6 +29,7 @@ Name | Description | Type | Labels
 `windows_netframework_clrmemory_committed_bytes` | Displays the amount of virtual memory, in bytes, currently committed by the garbage collector. Committed memory is the physical memory for which space has been reserved in the disk paging file. | gauge | `process`
 `windows_netframework_clrmemory_reserved_bytes` | Displays the amount of virtual memory, in bytes, currently reserved by the garbage collector. Reserved memory is the virtual memory space reserved for the application when no disk or main memory pages have been used. | gauge | `process`
 `windows_netframework_clrmemory_gc_time_percent` | Displays the percentage of time that was spent performing a garbage collection in the last sample. | gauge | `process`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

@@ -16,9 +16,11 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_logon_logon_type` | Number of active user logon sessions | gauge | status
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Query the total number of interactive logon sessions

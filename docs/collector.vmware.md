@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_vmware_mem_active_bytes` | _Not yet documented_ | gauge | None
@@ -35,6 +36,7 @@ Name | Description | Type | Labels
 `windows_vmware_cpu_time_seconds_total` | _Not yet documented_ | counter | None
 `windows_vmware_effective_vm_speed_mhz` | _Not yet documented_ | gauge | None
 `windows_vmware_host_processor_speed_mhz` | _Not yet documented_ | gauge | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

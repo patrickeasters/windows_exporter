@@ -24,12 +24,14 @@ Uses API calls instead of WMI for performance optimization. **Note** the previou
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_service_info` | Contains service information in labels, constant 1 | gauge | name, display_name, process_id, run_as
 `windows_service_state` | The state of the service, 1 if the current state, 0 otherwise | gauge | name, state
 `windows_service_start_mode` | The start mode of the service, 1 if the current start mode, 0 otherwise | gauge | name, start_mode
 `windows_service_status` | The status of the service, 1 if the current status, 0 otherwise | gauge | name, status
+<!-- END auto-generated metrics table -->
 
 For the values of the `state`, `start_mode`, `status` and `run_as` labels, see below.
 

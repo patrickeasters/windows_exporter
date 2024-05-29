@@ -15,9 +15,11 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_cpu_info` | Labelled CPU information | gauge | `architecture`, `device_id`, `description`, `family`, `l2_cache_size` `l3_cache_size`, `name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 ```

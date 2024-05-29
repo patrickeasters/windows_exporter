@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_netframework_clrloading_loader_heap_size_bytes` | Displays the current size, in bytes, of the memory committed by the class loader across all application domains. Committed memory is the physical space reserved in the disk paging file. | gauge | `process`
@@ -25,6 +26,7 @@ Name | Description | Type | Labels
 `windows_netframework_clrloading_assemblies_loaded_total` | Displays the total number of assemblies loaded since the application started. If the assembly is loaded as domain-neutral from multiple application domains, this counter is incremented only once. | counter | `process`
 `windows_netframework_clrloading_classes_loaded_total` | Displays the cumulative number of classes loaded in all assemblies since the application started. | counter | `process`
 `windows_netframework_clrloading_class_load_failures_total` | Displays the peak number of classes that have failed to load since the application started. | counter | `process`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

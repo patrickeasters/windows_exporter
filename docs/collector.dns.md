@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `windows_dns_zone_transfer_requests_received_total` | _Not yet documented_ | counter | `qtype`
@@ -38,6 +39,7 @@ Name | Description | Type | Labels
 `windows_dns_wins_queries_total` | _Not yet documented_ | counter | `direction`
 `windows_dns_wins_responses_total` | _Not yet documented_ | counter | `direction`
 `windows_dns_unmatched_responses_total` | _Not yet documented_ | counter | None
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 _This collector does not yet have explained examples, we would appreciate your help adding them!_

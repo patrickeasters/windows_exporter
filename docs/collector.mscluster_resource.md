@@ -14,6 +14,7 @@ None
 
 ## Metrics
 
+<!-- BEGIN auto-generated metrics table -->
 Name | Description | Type | Labels
 -----|-------------|------|-------
 `Characteristics` | Provides the characteristics of the object. The cluster defines characteristics only for resources. For a description of these characteristics, see [CLUSCTL_RESOURCE_GET_CHARACTERISTICS](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/mscs/clusctl-resource-get-characteristics). | gauge | `type`, `owner_group`, `name`
@@ -33,6 +34,7 @@ Name | Description | Type | Labels
 `RetryPeriodOnFailure` | Provides access to the resource's RetryPeriodOnFailure property, which is the interval of time (in milliseconds) that a resource should remain in a failed state before the Cluster service attempts to restart it. | gauge | `type`, `owner_group`, `name`
 `State` | The current state of the resource. -1: Unknown; 0: Inherited; 1: Initializing; 2: Online; 3: Offline; 4: Failed; 128: Pending; 129: Online Pending; 130: Offline Pending | gauge | `type`, `owner_group`, `name`
 `Subclass` | Provides the list of references to nodes that can be the owner of this resource. | gauge | `type`, `owner_group`, `name`
+<!-- END auto-generated metrics table -->
 
 ### Example metric
 Query the state of all cluster resource owned by node1
